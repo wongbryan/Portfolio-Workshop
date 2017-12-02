@@ -92,7 +92,7 @@ body{
 
 .projects{
 	float: left;
-	width: 75vw;
+	width: 73vw;
 }
 
 .projects__title{
@@ -163,4 +163,19 @@ body{
 	width: 70%;
 	margin: auto;
 	margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+	.fakeDiv, .sidebar {
+		display: none;
+	}
+
+	.projects {
+		float: inherit;
+		width: 100vw;
+	}
+
+	.projects__title {
+		margin: 45px;
+	}
 }
